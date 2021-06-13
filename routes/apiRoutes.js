@@ -1,7 +1,12 @@
-const express = require("express");
-const getAllNotes = require("../controllers/getAllNotes");
-const router = express.Router();
+const { Router } = require("express");
 
-router.get("/notes", getAllNotes);
+//deconstruct functions  for the api routes
+const { getNotes, writeNotes, deleteNotes } = require("../controllers/notes");
+
+const router = Router();
+
+router.get("/notes", getNotes);
+router.post("/notes", writeNotes);
+router.delete("/notes/:id", deleteNotes);
 
 module.exports = router;

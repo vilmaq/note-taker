@@ -22,6 +22,14 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 - Express.static(): to serve the static files
 - Middleware: used to handle data parsing & extend library functionality
 
+## Getting Stated
+
+` npm init -y`
+` npm i express`
+` npm i nodemon -D`
+`npm i express cors`
+`npm run start
+
 ## Mock-Up
 
 The following images show the web application's appearance and functionality:
@@ -107,3 +115,11 @@ You are required to submit BOTH of the following for review:
 ---
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+```
+
+```
+
+```
+
+```

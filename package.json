@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "uuid": "^8.3.2"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.10"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilmaq/note-taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vilmaq/note-taker/issues"
+  },
+  "homepage": "https://github.com/vilmaq/note-taker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
