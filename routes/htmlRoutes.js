@@ -1,11 +1,11 @@
 const { Router } = require("express");
 
-const { renderHomePage, renderNotePage } = require("../controllers/html");
+const { renderHomePage, renderNotesPage } = require("../controllers/html");
 
 const router = Router();
 
-router.get("/notes", renderNotePage);
+router.get("/notes", renderNotesPage);
 
-router.get("/*", renderHomePage);
+router.get("*", renderHomePage);
 
 module.exports = router;
